@@ -1,0 +1,12 @@
+System.setProperty("webdriver.chrome.driver", YourChromePath);
+  DesiredCapabilities capabilities = DesiredCapabilities.chrome();
+            ChromeOptions options = new ChromeOptions();
+            options.addArguments("test-type");
+            capabilities.setCapability("chrome.binary", YourChromePath);
+            capabilities.setCapability(ChromeOptions.CAPABILITY, options);
+
+
+capabilities.setCapability(CapabilityType.UNEXPECTED_ALERT_BEHAVIOUR, UnexpectedAlertBehaviour.ACCEPT);
+
+
+
