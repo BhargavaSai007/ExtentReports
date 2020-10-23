@@ -1,0 +1,6 @@
+Control statements:
+ Selection statements [IF,IF-ELSE, IF-ELSE-IF, SWITCH CASE]
+ Iterative statements[FOR,FOR EACH,WHILE, DO WHILE]
+ Trasfer statements [RETURN,BREAK,CONTINUE,THROW]
+ 
+ 

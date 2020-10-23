@@ -1,0 +1,51 @@
+git config --list
+snapshot is picture of machine at give point of time 
+git-commit stores in set of snapshots local repository
+git-push to github server
+Only commit where the changes are made 
+
+
+POM and Data driven are the approaches to optimise code with utilities Excel reader.
+
+Git init
+git add
+git commit
+git remote add origin git@github.com:SeleSaiTester/Selenium.git
+Git push -u origin master
+
+Fork is having complete project to experiment but has no impact on live project
+git pull[merge and fetch] is for others to check the changes made
+git diff, git status are other commands to check the changes made
+
+GitLife Cycle
+Working directory> when added to stagging area--> when commited they go to
+--> local repository
+
+Only files where the changes made will be added when git add 
+
+
+GITHub: Service provider for remote repository
+Web application can used anywhere in world using internet
+Public account will be seen 
+Private repository will be secure 
+Need for Remote repository is needed when many work on one version
+
+git remote add origin
+
+"The "Fork" is a copy of a repository. Forking a repository 
+allows you to freely experiment 
+with changes without affecting the original project."(Source)
+
+Continuous Integration Issues are catched at early stage helps product best delivery 
+Jenkins, Hudson, TeamCity, Teams Foundation server [Jenkins is build on java and freely used]
+
+All check ins done to Local repository
+!!Pushedto RemoteRepository
+!!CI server which is tracking remote repo and any new changes done to application
+Build automation tool called maven does Compile || Unit || Regression and publish  
+
+When tester checks in code tester needs to be there to test
+Integration testing is done by testers
+Unit test after release is done by developer
+
+Au
