@@ -1,15 +1,61 @@
+POLYMORPHIC REFERENCE
+Number class is parent to Integer where we can change return type while overriding.
+Covarient return type is allowed for overriding; child is child and 
+parent should be using parent class
+Ex: Parent obj=new Child();
+obj can only call the methods avalible in parent class but can not call method in child class;
+
+WebDriver driver=new FirefoxDriver();
+STORE the object of child class in the parent class/interface reference variable;
+
+Double d=new Double(10.25) == double d=10.25 [object is created ]
+
 Polymorphism || Multiple forms || Two types
-OverLoading[Compile time, Early Binding]
-OverRiding [RunTime, Late Binding] 
+OverLoading[COMPILE time, Early Binding]
+OverRiding [RUNTIME, Late Binding] Implementation will be different
+We can not decrease the visibility while over riding we get compile time error;
+public--->protected---> default--> private
+
+IMP:NOTE-: 
+When overriding method done at child class; 
+
+If not sure how many values to be passed to method
+int add(int...var)// var args os ONly for Single datatype
+ex: void add(int... var) integer array; 
+int[]!=int..var
+double d=10== double d=10.0; double can store int
+
+println is overloaded method;
 
 Implemented at Method level only; 
 Method name and parameters is MethodSignature.
 
 OVERRIDING [SAME METHOD NAME AND SAME PARAMETRES in different class]
+Changing variable name makes no difference.ex int(a,b) !=int(c,d); but data type matters
+Changing return type will not affect overload 
+
  
 OVERLOADING [Same method name with different parametres]
 
 In class we have mutiple methods with same name but with DIFFERENT PARAMETRES
 RUNTIME issues; While passing values sending two or three parametres 
 when not sure create same method and overload the method by adding parametres.
+
+
+Can we change method return type while overriding method in child class ?
+YES for reference datatype
+but no for primitive data types; in child class else we face compile time errors;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
