@@ -1,0 +1,20 @@
+Inheritence || Abstraction || Polymorphism || Encapsulation
+OBJECT CREATION MATTERS A LOT
+Multiple inheretence is not allowed at class level but allowed at interface level;
+
+Inheritence extends is key word, applied for classes 
+Has a relation ship is property based; composition||Aggregation
+IS A relationship is important [DOG IS A ANIMAL]
+Dog extends Animal 
+Child can use parent but parent can not use parent 
+
+Inherit property of other class; one class using property of other class
+Single,Multiple,Hierarchial, multi level;
+
+Animal having cat and dog clases is hierarichal inheritance
+siblings can not share the properties 
+
+Why Multiple Inheritence is not possible at class level ?
+
+AMBIGUITY ISSUES WHEN CHILD ASKS FOR PARENT
+

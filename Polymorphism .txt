@@ -1,0 +1,15 @@
+Polymorphism || Multiple forms || Two types
+OverLoading[Compile time, Early Binding]
+OverRiding [RunTime, Late Binding] 
+
+Implemented at Method level only; 
+Method name and parameters is MethodSignature.
+
+OVERRIDING [SAME METHOD NAME AND SAME PARAMETRES in different class]
+ 
+OVERLOADING [Same method name with different parametres]
+
+In class we have mutiple methods with same name but with DIFFERENT PARAMETRES
+RUNTIME issues; While passing values sending two or three parametres 
+when not sure create same method and overload the method by adding parametres.
+
