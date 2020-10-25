@@ -1,0 +1,11 @@
+Inheritence || Abstraction || Polymorphism || Encapsulation
+
+Inheritence extends is key word, applied for classes 
+Has a relation ship is property based; composition||Aggregation
+IS A relationship is important [DOG IS A ANIMAL]
+Dog extends Animal 
+Child can use parent but parent can not use parent 
+
+Inherit property of other class; one class using property of other class
+Single,Multiple,Hierarchial, multi level;
+

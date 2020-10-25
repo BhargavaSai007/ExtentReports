@@ -1,0 +1,33 @@
+Static import import static p3.Testing.* [ALL static properties will be imported]
+
+Control statements:
+ Selection statements [IF,IF-ELSE, IF-ELSE-IF, SWITCH CASE]
+ Iterative statements[FOR,FOR EACH,WHILE, DO WHILE]
+ Trasfer statements [RETURN,BREAK,CONTINUE,THROW]
+ //REFERENCE CAN CONTAIN ONLY ADDRESS OF THE OBJECT 
+ 
+ 2-d array is an array inside an array [Parent and child ]
+ int[][] array=new int[2][]; // parent is decided u get run time error
+ array[0]=new int[3];
+ array[1]=new int[10];
+ 
+ for(i=0;i<array.length;i++)
+ nested for(j=0;array[i].length;j++)
+ Total 13 insertions
+ 
+ MANDATORY DO DECLARE THE LENGTH OF ARRAY SO IT IS FIXED LENGTH new int[9][10](Object created) 
+  
+ Array is a class in JAVA and collection of similar dta types
+ Fixed length as we cann not decrease or increase during run time 
+ Where we can store multiple values of same type;
+ Inside same variable Same object 
+ 
+ int []a= new int[5];
+ new key word is used to create an object for ARRAY CLASS
+[0][1][2][3][4]---> size of array is 5
+variable will pointed to all indexes
+//out of bound exception when declared size higher;
+
+ Math.random is avalible in Java to generate the random numbe, returns the double data type
+ // double o.o to 1.o
+ TYPE CASTING (int)(Math.random()*1000)
