@@ -1,0 +1,26 @@
+Every child class will call the parent class constructor. It need not be proved If no 
+constructor. Only one constructor should be called.
+
+
+when there is no user defined default constructor will be called. 
+this(10)==child(int a);
+super(20)== parent(int b);
+
+Default parent class constructor will be called.
+To call the parametre constructor JVM will not take decisions. Pass the value is by child class
+
+
+In child class constructor the first call will be parent constructor;
+Child extends Parent {
+child(){	
+syso"Child constructor "
+super(10);
+}
+main(){
+Child cobj=new Obj();
+}
+}
+
+
+
+

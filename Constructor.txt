@@ -1,0 +1,80 @@
+//Object is created at run time;
+// super keyword for abstract class and interface as we can not create objects;
+this keyWord we can not use in static method;
+If you used THIS key word in main static method [We need object but static need no object]
+Else null pointer exception;; 
+can call constructor inside construtor;
+this(10); 
+
+// this is specific to Instance variables.
+
+Interface is 100% abstract in nature; Can achive abstraction at fullest level;
+Can only Implement Static methods
+Can not create Object for interface 
+
+Interface and abstract class are also type of classes;
+Abstarct method is not completely Abstract 
+implements is keyWord for Interface. Unimplemented methods should be Override
+
+
+Firefox driver is grandchild to WebDriver;
+Multiple Inheritance:
+When class inherits more than one Interface is multiple inheritance
+[Ambiguity issues for child]
+
+At interface level child can implements 2 or more Interface
+Vraibles in Interface are Static Final;
+We can write main method in Interface;
+ 
+ CONSTRUCTOR chaining 
+ 
+ Methods with class name 
+ Donot have return type
+ Initialising Instance variables at time of Objet creation;
+ If same name issue but different name no issues.
+ If purpose of varible is same then it is recommended to have same name;
+ 
+ THIS WILL BE POINTED TO ONLY ONE OBJECT; LATEST OBJECT 
+ Instance variables can be accesed by objects and this points to lastest object;
+Super born after child object is created.
+
+ 
+Constructors can be overloaded but if return type mentioned it means 
+truned to method 
+
+This key word to access instance variables.
+ 
+Output: Java 10 
+ 
+ public class Constructor {
+
+	public Constructor() {
+		this(10);
+	}
+	Constructor(int a){
+		this("Java");
+		System.out.println(a);
+	}
+	Constructor(String b){
+		System.out.println(b);
+	}
+	public static void main(String[] args) {
+		Constructor obj=new Constructor();
+	}
+}
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

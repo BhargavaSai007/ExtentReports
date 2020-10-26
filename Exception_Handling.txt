@@ -1,0 +1,16 @@
+What is Exceptions?
+Throwable[Parent]--> Error and Exception---> RUNtIME,io Exception,SQL Exception
+RUNtIME--> Arthamatic and Null Pointer Exception;
+
+ALL EXCEPTIONS ARE CLASSES IN JAVA 
+Object of that class will be thrown;
+
+
+// Checked Execption [compile time] and Unchecked Exception[Run Time]
+Execution of program is stopped after execution to avoid this we use exception handling 
+
+JVM unable to process. Code execution issues can be handled by TRY/Catch
+Error cannot be handled by try catch
+
+Arthamatic Exception is class in java.lang 
+
